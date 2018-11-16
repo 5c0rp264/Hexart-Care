@@ -1,3 +1,3 @@
-#define CHOIX 1
-#define LED 2
+#define CHOIX 0 
+#define LED 0
 #define eachXLED 2

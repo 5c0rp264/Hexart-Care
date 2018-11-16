@@ -55,7 +55,7 @@ void displayMenu(){
             printf("lloyd.gervot@viacesi.fr\n");
             printf("alex.brianceau@viacesi.fr\n");
             printf("enzo.lebrun@viacesi.fr\n");
-            printf("quentin;aoustin@viacesi.fr\n");
+            printf("quentin.aoustin@viacesi.fr\n");
 	    }else{
 	    	printf("\n\nAdios humanos, heureux d'avoir pu t'etre un peu utile\n\n");
 	    	CLS
