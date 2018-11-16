@@ -41,8 +41,6 @@ void code(int choix)
 }
 
 void chenille(){
-    FILE* fichier = NULL; // Ouverture du param.h
-    fichier = fopen("coeur/param.h", "w+"); // Le fichier est redirigé dans le dossier coeur contenant le code Arduino C
     writeFile(0,0,2);
 }
 
