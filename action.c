@@ -16,7 +16,7 @@ void append(char *s, char c) {  ///fonction ajoutant un char a la fin d'un strin
 void printData(data* dataToPrint,int size){ /// Fonction affichant la totalité du tableau contenant les données du fichiers CSV
 	for (int i = 0; i < size; ++i)
 	{
-		printf("timestamp : %.9ld heartRate %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
+		printf("Temps : %.9ld Rythme cardiaque : %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
 	}
 }
 
@@ -45,9 +45,9 @@ void searchForHeartRateOrHeartRate(data* dataToPrint,int size, double value, dou
 	for (int i = 0; i < size; ++i){
 		//printf("timestamp : %.9ld heartRate %.4f value: %.3lf\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate,value);
 		if (choice == 0 && dataToPrint[i].timestamp == value){ ///recherche pouls
-			printf("timestamp : %.9ld heartRate %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
+			printf("Temps : %.9ld Rythme cardiaque : %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
 		}else if (choice == 1 && ((int)dataToPrint[i].heartRate == (int)value)){///recherche temps
-			printf("timestamp : %.9ld heartRate %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
+			printf("Temps : %.9ld Rythme cardiaque : %.4f\n",dataToPrint[i].timestamp, dataToPrint[i].heartRate );
 		}
 	}
 }
